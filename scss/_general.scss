@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EDF3F8;
+    background-image: url("../../images/hero-bg-img.png");
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-position-x: right;
+}
+@media only screen and(max-width:755px){
+    body{
+        background-image: url("../images/tablet-hero-bg.png");
+        background-position-y: top;
+        background-position-x: center;
+    }
+}
+
+img{
+    object-fit: cover;
+}
